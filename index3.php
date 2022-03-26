@@ -11,7 +11,22 @@
 
 <?php
 
-    echo str_replace("Hi Daniel","Jason","Hi Daniel");
+    //string
+    $name = 'Coding is fun';
+
+    //Interger
+    $name = 20;
+
+    //Float
+    $name = 20.8967;
+
+    //Boolean
+   /* true = 1 
+    false = 0 */
+
+    //Array 
+    $names = array("Daniel","Dennis","Michael");
+    echo $names['2'];
 
 ?>
     
