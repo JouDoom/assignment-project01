@@ -8,18 +8,16 @@
 </head>
 
 <body>
-    <form method="GET">
-        <input type="text" name="person">
-        <button>SUBMIT</button>
-
-    </form>
 
 <?php
-    $students = $_GET['person'] ;   
-    echo $students. " is a student of SAGU Foundation";
+
+    echo str_replace("Hi Daniel","Jason","Hi Daniel");
 
 ?>
-  
+    
 </body>
 
+
+
 </html>
+
